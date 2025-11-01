@@ -1,95 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Vikas Panday Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="move.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas pandey - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">Vikas Panday</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-  <section class="hero" id="home">
-    <div class="container hero-content">
-      <h2>Hi, I'm <span>Vikas Panday</span></h2>
-      <p>MCA Student at NIT Raipur | Java, HTML, CSS, JavaScript, React.js Developer</p>
-      <div class="hero-links">
-        <a href="https://www.linkedin.com/in/vikas-panday-ab29222a6" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://leetcode.com/u/vikasrk/" target="_blank" rel="noopener">LeetCode</a>
-        <a href="https://www.codechef.com/users/for_free_67" target="_blank" rel="noopener">CodeChef</a>
-        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Vikas pandey</span></h1>
+                <p class="hero-subtitle">MCA Student | Software Developer | Problem Solver</p>
+                <p class="hero-description">Passionate about competitive programming and building innovative web applications</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="about" id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I'm a passionate MCA student focused on competitive programming and software development.
-        Skilled in Java, web technologies, and React.js with a continuous drive to learn and build impactful projects.
-      </p>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an MCA student at NIT Raipur with a passion for problem-solving and software development. I actively participate in competitive programming on platforms like LeetCode and CodeChef, constantly improving my algorithmic skills.</p>
+                    <p>My expertise spans across data structures, algorithms, web development, and system design. I enjoy building practical applications and tackling challenging problems that push my technical abilities.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>100+</h3>
+                            <p>Problems Solved</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Projects Built</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>3+</h3>
+                            <p>Languages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="skills" id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>Java</li>
-        <li>HTML5 & CSS3</li>
-        <li>JavaScript (ES6+)</li>
-        <li>React.js</li>
-        <li>Competitive Programming</li>
-      </ul>
-    </div>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag"> JAVA</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">css</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Operating Systems</span>
+                        <span class="skill-tag">computer network</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git&GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">JIRA</span>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="projects" id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-cards">
-        <article class="project-card">
-          <h3>Flashcard Quiz App</h3>
-          <p>A responsive web app to create and take interactive quizzes using HTML, CSS, and JavaScript.</p>
-        </article>
-        <article class="project-card">
-          <h3>Calculator Application</h3>
-          <p>Built a functional, clean calculator app with JavaScript handling basic arithmetic operations.</p>
-        </article>
-        <article class="project-card">
-          <h3>Portfolio Website</h3>
-          <p>Personal portfolio site showcasing skills, projects, and coding profiles.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header" style="background: var(--color-bg-1);">
+                        <h3>Calculator App</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>A fully functional calculator application built with HTML, CSS, and JavaScript featuring basic arithmetic operations and a clean UI.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
 
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <ul class="contact-list">
-        <li>Email: <a href="mailto:vikas.panday.rk@gmail.com">vikas.panday.rk@gmail.com</a></li>
-        <li>Phone: <a href="tel:+919452028238">9452028238</a></li>
-        <li>Location: Prayagraj</li>
-      </ul>
-    </div>
-  </section>
+                <div class="project-card">
+                    <div class="project-header" style="background: var(--color-bg-2);">
+                        <h3>Flashcard Quiz App</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>An interactive quiz application with flashcards for learning and testing knowledge on various topics.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
 
-  <footer>
-    <p>&copy; 2025 Vikas Panday. All rights reserved.</p>
-  </footer>
+                <div class="project-card">
+                    <div class="project-header" style="background: var(--color-bg-3);">
+                        <h3>LeetCode Solutions</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>Collection of optimized solutions to 100+ LeetCode problems in Java and C++, demonstrating strong problem-solving skills.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">C++</span>
+                            <span class="project-tag">Algorithms</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="#" class="project-link">View GitHub →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header" style="background: var(--color-bg-4);">
+                        <h3>Portfolio Website</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>Personal portfolio website showcasing projects, skills, and experience with modern design and smooth animations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <a href="https://quantumsoftwares.in/vikas-resume.html" class="project-link">View Live →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-links">
+                        <a href="mailto: Vikas.panday.rk@gmail.com" class="Gmail">
+                            <span>📧</span> vikas.panday.rk@gmail.com
+                        </a>
+                        <a href="https://github.com/vikaspandayrk-cell" class="github" target="_blank" rel="noopener noreferrer">
+                            <span>💻</span> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/vikas-panday-ab29222a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin" target="_blank" rel="noopener noreferrer">
+                            <span>💼</span> LinkedIn
+                        </a>
+                        <a href="https://leetcode.com/u/vikasrk/" class="leetcode" target="_blank" rel="noopener noreferrer">
+                            <span>🏆</span> LeetCode
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Vikas pandey</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vikas pandey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="move.js"></script>
 </body>
 </html>
-
