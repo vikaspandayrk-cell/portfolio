@@ -1,2 +1,2 @@
 # portfolio
-in this project you can see all about me
+Welcome to my portfolio repository! This project showcases my skills, achievements, and experiences as an MCA student at NIT Raipur, focused on competitive programming, technical interview preparation, and web development. Explore my projects, coding challenges, and educational journey to learn more about my expertise in data structures, algorithms, operating systems, numerical methods, and creative web applications. Connect with me to collaborate or discuss exciting opportunities!
